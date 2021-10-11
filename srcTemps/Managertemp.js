@@ -1,6 +1,5 @@
 function addManager(Manager){
-    return 
-    `
+    return `
     <div class="col">
     <div class="card" style="width: 18rem;">
         <div class="card-header bg-success">
