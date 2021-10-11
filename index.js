@@ -56,18 +56,31 @@ function addMember() {
                     message: "Would you like to add more team members?"
                 }
             ])
-                .then(function (data) {
-                    let allData = { ...data, name, id, email, role }
-                    htmlRender(allData)
+            .then(function (data) {
+                let allData = { ...data, name, id, email, role }
+                htmlRender(allData)
 
-                    if (data.addMore) {
-                        addMember()
-                    } else {
-                        let finalHtml = generatePage(employees)
+                if (data.addMore) {
+                    addMember()
+                } else {
+                    let finalHtml = generatePage(employees)
 
-                        fs.writeFileSync(path.resolve("./dist/finalHtml.html"), finalHtml)
-                    }
-                })
-
+                    fs.writeFileSync(path.resolve("./dist/finalHtml.html"), finalHtml)
+                }
+            })
         })
 }
+
+function htmlRender (data){
+    switch (data.role){
+        case "Engineer": employees.push(Engineertemp(data)); break;
+        case "Intern": employees.push(Interntemp(data)); break;
+        case "Manager": employees.push(Managertemp(data)); break;
+
+        default:
+            break;
+    }
+    console.log(employees)
+}
+
+addMember ();
