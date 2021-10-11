@@ -2,7 +2,7 @@ function addIntern(Intern){
     return `
     <div class="col">
     <div class="card" style="width: 18rem;">
-        <div class="card-header bg-success">
+        <div class="card-header bg-teal-700">
             <h4 class="text-light">${Intern.name}</h4>
             <h5><i class="bi bi-eyeglasses"></i>Intern</h5>
         </div>
