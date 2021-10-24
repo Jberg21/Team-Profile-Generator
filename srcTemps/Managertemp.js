@@ -2,7 +2,7 @@ function addManager(Manager){
     return `
     <div class="col">
     <div class="card" style="width: 18rem;">
-        <div class="card-header bg-$cyan-700">
+        <div class="card-header bg-success">
             <h4 class="text-light">${Manager.name}</h4>
             <h5><i class="bi bi-clipboard-data"></i>Manager</h5>
         </div>

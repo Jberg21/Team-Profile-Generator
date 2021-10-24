@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const Engineeringtemp = require("./srcTemps/Engineertemp");
+const Engineertemp = require("./srcTemps/Engineertemp");
 const generatePage = require("./srcTemps/generatePage");
 const Interntemp = require("./srcTemps/Interntemp");
 const Managertemp = require("./srcTemps/Managertemp");
@@ -26,7 +26,7 @@ function addMember() {
             message: "Enter employees email address."
         },
         {
-            type: "input",
+            type: "list",
             name: "role",
             message: "Select the employees Role.",
             choices: [
@@ -80,7 +80,6 @@ function htmlRender (data){
         default:
             break;
     }
-    console.log(employees)
 }
 
 addMember ();

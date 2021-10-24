@@ -1,0 +1,29 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "Week 10 Challenge",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jberg21/Team-Profile-Generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jberg21/Team-Profile-Generator/issues"
+    },
+    "homepage": "https://github.com/Jberg21/Team-Profile-Generatorap#readme",
+    "dependencies": {
+        "inquirer": "^8.2.0",
+        "npm i inquirer": "^8.1.1"
+    },
+    "devDependencies": {
+        "jest": "^27.2.5"
+    }
+}
