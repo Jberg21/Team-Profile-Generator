@@ -38,16 +38,12 @@ THEN I exit the application, and the HTML is generated
 
 ## Challenges
 
-The overall project was ok but getting all the the 
-
-
-
+The overall project was ok but getting all the javascript set up correctly and the connections all set-up.
 
 ---
 ## Victories
 
-Was able to set up 
-
+Was able to get the styling the way I wanted it. 
 
 ---
 
@@ -67,6 +63,6 @@ Was able to set up
 
 <a href="https://github.com/Jberg21/Team-Profile-Generator">GitHub Repo</a>
 
-<a href="">YouTube</a>
+<a href="https://youtu.be/n6pM2KpbtgI">YouTube</a>
 
 ---
