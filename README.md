@@ -4,6 +4,7 @@
 ### Table of Contents
 - [Description](#description)
 - [Introduction](#introduction)
+- [Mockup](#mockup)
 - [Challenges](#challenges)
 - [Victories](#victories)
 - [Technologies Used](#technologies)
@@ -35,7 +36,11 @@ WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
 ---
+## Mockup
 
+<img width="500" alt="Screen grab" src="screenshots/ScreenCapture.png">
+
+---
 ## Challenges
 
 The overall project was ok but getting all the javascript set up correctly and the connections all set-up.
