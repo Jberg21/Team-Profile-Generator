@@ -38,7 +38,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Challenges
 
-The overall project was ok but getting all the
+The overall project was ok but getting all the the 
 
 
 
@@ -46,7 +46,7 @@ The overall project was ok but getting all the
 ---
 ## Victories
 
-NoSQL is a breath of fresh air after the last leg of the coursework. I have really enjoyed working with this technology. I'm starting to feel less confused by the larger file structures that come with the full-stack. This project was especially easy to set up after the modules this week. It was really similar as far as the skeleton you need to set up for this technology, espcially with no front end to tie up with it. I really enjoyed this project!
+Was able to set up 
 
 
 ---
@@ -65,7 +65,7 @@ NoSQL is a breath of fresh air after the last leg of the coursework. I have real
 
 ## Resources 
 
-<a href="">GitHub Repo</a>
+<a href="https://github.com/Jberg21/Team-Profile-Generator">GitHub Repo</a>
 
 <a href="">YouTube</a>
 
